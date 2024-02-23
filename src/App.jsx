@@ -17,23 +17,24 @@ function App() {
           <h2>I am in the process of becoming a full stack developer.</h2>
         </div>
       </section>
-      <section id='AboutMe-Section'>
+      <section id='AboutMe-Section' className='Section'>
+        <h2>Something about me</h2>
+      </section>
+      <section id='Skills-Section' className='Section'>
         <h2>These are the Programming  Skills I possess:</h2>
         <ul>
           <li>HTML5 & CSS3</li>
           <li>JavaScript (ES6)</li>
         </ul>
-      </section>
-      <section id='Skills-Section'>
 
       </section>
-      <section id='Projects-Section'>
+      <section id='Projects-Section' className='Section'>
 
       </section>
-      <section id='Contact-Section'>
+      <section id='Contact-Section' className='Section'>
 
       </section>
-      <section id='Footer-Section'>
+      <section id='Footer-Section' className='Section'>
 
       </section>
      </div>
