@@ -1,0 +1,48 @@
+/**/
+/* Font CSS */
+@font-face {
+  font-family: Unageo;
+  src: url("../assets/font/unageo/Unageo.ttf") format("truetype");
+  font-weight: 1200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Host_Grotesk;
+  src: url("../assets/font/host_grotesk/HostGrotesk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: MonaspaceArgon;
+  src: url("../assets/font/monaspace/MonaspaceArgon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: MonaspaceXenon;
+  src: url("../assets/font/monaspace/MonaspaceXenon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Color CSS */
+
+/**/
+/**/
+/**/
+/* Main CSS */
+* {
+  font-family: Host_Grotesk;
+}
+
+/* Sections CSS */
+#Section-Container {
+  height: 300px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+  color: aliceblue;
+}
