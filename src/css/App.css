@@ -26,7 +26,32 @@
 }
 
 /* Color CSS */
+* {
+  --primary: #14171e;
+  --primary-content: #8490ad;
+  --primary-dark: #000000;
+  --primary-light: #282e3d;
 
+  --secondary: #18141e;
+  --secondary-content: #9484ad;
+  --secondary-dark: #000000;
+  --secondary-light: #30283d;
+
+  --background: #14171f;
+  --foreground: #1f232e;
+  --border: #333b4d;
+
+  --copy: #fafbfc;
+  --copy-light: #d1d6e0;
+  --copy-lighter: #949fb8;
+
+  --success: #141e14;
+  --warning: #1e1e14;
+  --error: #1e1414;
+  --success-content: #84ad84;
+  --warning-content: #adad84;
+  --error-content: #ad8484;
+}
 /**/
 /**/
 /**/
