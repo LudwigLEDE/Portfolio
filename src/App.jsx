@@ -18,7 +18,11 @@ function App() {
         </div>
       </section>
       <section id='AboutMe-Section'>
-
+        <h2>These are the Programming  Skills I possess:</h2>
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript (ES6)</li>
+        </ul>
       </section>
       <section id='Skills-Section'>
 
