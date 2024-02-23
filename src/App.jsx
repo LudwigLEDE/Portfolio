@@ -10,10 +10,12 @@ function App() {
   return (
     <>
      <div id='Section-Container'>
-      <section id='Hero-Section'>
-        <h1>HELLO WORld</h1>
-        <p>HEÖLSD</p>
-        <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla minus in fuga delectus quasi explicabo aliquid aliquam quibusdam laudantium eveniet non sunt sint sequi accusamus optio, ratione maiores provident.</a>
+      <section id='Hero-Section' className='Section'>
+    	  <div id='Hero-Content-Container'>
+          <h1>Welcome to My Portfolio!</h1>
+          <h2>My name is Ludwig Engelhardt</h2>
+          <h2>I am in the process of becoming a full stack developer.</h2>
+        </div>
       </section>
       <section id='AboutMe-Section'>
 

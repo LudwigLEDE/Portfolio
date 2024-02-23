@@ -62,12 +62,12 @@
 
 /* Sections CSS */
 #Section-Container {
-  height: 300px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  height: 100vh;
 }
 
-.section {
+.Section {
   height: 100vh;
-  color: aliceblue;
+  scroll-snap-align: start;
 }
