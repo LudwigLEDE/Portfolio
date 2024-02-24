@@ -1,4 +1,7 @@
 import { useState } from 'react'
+
+import RoundedSlideButton from './components/RoundedSlideButton'
+
 import './css/App.css'
 
 function App() {
@@ -15,6 +18,10 @@ function App() {
           <h1>Welcome to My Portfolio!</h1>
           <h2>My name is Ludwig Engelhardt</h2>
           <h2>I am in the process of becoming a full stack developer.</h2>
+          
+        </div>
+        <div  id="Hero-Button-Container">
+          <RoundedSlideButton />
         </div>
       </section>
       <section id='AboutMe-Section' className='Section'>
@@ -32,6 +39,7 @@ function App() {
 
       </section>
       <section id='Contact-Section' className='Section'>
+    
 
       </section>
       <section id='Footer-Section' className='Section'>

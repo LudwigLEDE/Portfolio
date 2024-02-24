@@ -1,0 +1,58 @@
+/**/
+/* Font CSS */
+@font-face {
+  font-family: Unageo;
+  src: url("../assets/font/unageo/Unageo.ttf") format("truetype");
+  font-weight: 1200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Host_Grotesk;
+  src: url("../assets/font/host_grotesk/HostGrotesk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: MonaspaceArgon;
+  src: url("../assets/font/monaspace/MonaspaceArgon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: MonaspaceXenon;
+  src: url("../assets/font/monaspace/MonaspaceXenon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Color CSS */
+* {
+  --primary: #14171e;
+  --primary-content: #8490ad;
+  --primary-dark: #000000;
+  --primary-light: #282e3d;
+
+  --secondary: #18141e;
+  --secondary-content: #9484ad;
+  --secondary-dark: #000000;
+  --secondary-light: #30283d;
+
+  --background: #14171f;
+  --foreground: #1f232e;
+  --border: #333b4d;
+
+  --copy: #fafbfc;
+  --copy-light: #d1d6e0;
+  --copy-lighter: #949fb8;
+
+  --success: #141e14;
+  --warning: #1e1e14;
+  --error: #1e1414;
+  --success-content: #84ad84;
+  --warning-content: #adad84;
+  --error-content: #ad8484;
+}
+
+html {
+  background-color: var(--background);
+}
