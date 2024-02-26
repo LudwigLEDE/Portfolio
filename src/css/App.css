@@ -58,6 +58,7 @@
 /* Main CSS */
 * {
   font-family: Host_Grotesk;
+  color: var(--primary-content);
 }
 
 /* Sections CSS */

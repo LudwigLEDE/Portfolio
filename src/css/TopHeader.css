@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  background-color: white; /* Example background */
+  border-radius: 2px;
+  padding: 20px;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.header a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.shrunk {
+  padding: 10px 0;
+}

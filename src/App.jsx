@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import RoundedSlideButton from './components/RoundedSlideButton'
+import TopHeader from './components/TopHeader'
 
 import './css/App.css'
 
@@ -14,6 +15,7 @@ function App() {
     <>
      <div id='Section-Container'>
       <section id='Hero-Section' className='Section'>
+        <TopHeader />
     	  <div id='Hero-Content-Container'>
           <h1>Welcome to My Portfolio!</h1>
           <h2>My name is Ludwig Engelhardt</h2>
