@@ -64,7 +64,7 @@
 /* Sections CSS */
 #Section-Container {
   overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
   height: 100vh;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
