@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-import RoundedSlideButton from './components/RoundedSlideButton'
 import TopHeader from './components/TopHeader'
 
+import './css/Button.css'
 import './css/App.css'
 
 function App() {
@@ -23,7 +23,8 @@ function App() {
           
         </div>
         <div  id="Hero-Button-Container">
-          <RoundedSlideButton />
+          <button>Projects</button>
+          <button>Contact Me</button>
         </div>
       </section>
       <section id='AboutMe-Section' className='Section'>
