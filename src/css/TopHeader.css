@@ -1,12 +1,40 @@
+@import url(/src/css/App.css);
+
 .header {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 30%;
   transition: all 0.3s ease-in-out;
-  background-color: white; /* Example background */
+  background-color: var(--foreground);
   border-radius: 2px;
   padding: 20px;
-  z-index: 1000; /* Ensure the header is above other content */
+  z-index: 1000;
+}
+
+@media (max-width: 850px) {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--foreground);
+    border-radius: 2px;
+    padding: 20px;
+    z-index: 1000;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--foreground);
+    border-radius: 2px;
+    padding: 20px;
+    z-index: 1000;
+  }
 }
 
 .header a {

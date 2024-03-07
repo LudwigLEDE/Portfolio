@@ -27,30 +27,30 @@
 
 /* Color CSS */
 * {
-  --primary: #070f2b;
-  --primary-content: #4f6fe2;
-  --primary-dark: #000000;
-  --primary-light: #0e1e57;
+  --primary: #1dadc1;
+  --primary-content: #000000;
+  --primary-dark: #168595;
+  --primary-light: #31cbe0;
 
-  --secondary: #23072b;
-  --secondary-content: #c14fe2;
-  --secondary-dark: #000000;
-  --secondary-light: #470e57;
+  --secondary: #5bc11d;
+  --secondary-content: #000000;
+  --secondary-dark: #469516;
+  --secondary-light: #73e031;
 
-  --background: #131620;
-  --foreground: #1c2130;
-  --border: #2f3651;
+  --background: #ecf2f3;
+  --foreground: #fafcfc;
+  --border: #d8e4e6;
 
-  --copy: #fafbfc;
-  --copy-light: #cfd3e3;
-  --copy-lighter: #8e99bd;
+  --copy: #1e2d2f;
+  --copy-light: #4f777d;
+  --copy-lighter: #739fa6;
 
-  --success: #072b07;
-  --warning: #2b2b07;
-  --error: #2b0707;
-  --success-content: #4fe24f;
-  --warning-content: #e2e24f;
-  --error-content: #e24f4f;
+  --success: #1dc11d;
+  --warning: #c1c11d;
+  --error: #c11d1d;
+  --success-content: #e2fbe2;
+  --warning-content: #000000;
+  --error-content: #fbe2e2;
 }
 /**/
 /**/
@@ -73,7 +73,7 @@
   display: none;
 }
 .Section {
-  padding-top: 3rem;
+  padding-top: 4rem;
   height: 100vh;
   scroll-snap-align: start;
 }

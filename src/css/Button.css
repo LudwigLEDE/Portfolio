@@ -1,4 +1,4 @@
-/**/
+@import url(/src/css/App.css);
 /* Font CSS */
 @font-face {
   font-family: Unageo;
@@ -25,34 +25,6 @@
   font-style: normal;
 }
 
-/* Color CSS */
-* {
-  --primary: #070f2b;
-  --primary-content: #4f6fe2;
-  --primary-dark: #000000;
-  --primary-light: #0e1e57;
-
-  --secondary: #23072b;
-  --secondary-content: #c14fe2;
-  --secondary-dark: #000000;
-  --secondary-light: #470e57;
-
-  --background: #131620;
-  --foreground: #1c2130;
-  --border: #2f3651;
-
-  --copy: #fafbfc;
-  --copy-light: #cfd3e3;
-  --copy-lighter: #8e99bd;
-
-  --success: #072b07;
-  --warning: #2b2b07;
-  --error: #2b0707;
-  --success-content: #4fe24f;
-  --warning-content: #e2e24f;
-  --error-content: #e24f4f;
-}
-
 button {
   color: var(--primary-content);
   font-family: inherit;
@@ -63,27 +35,26 @@ button {
   margin: 20px;
   position: relative;
   overflow: hidden;
-  border: 2px solid var(--primary-content);
+  border: 2px solid var(--primary);
   transition: color 0.5s;
   z-index: 1;
   font-size: 17px;
   border-radius: 6px;
   font-weight: 500;
-  color: var(--primary-content);
 }
 
 button:before {
   content: "";
   position: absolute;
   z-index: -1;
-  background: var(--primary-content);
+  background: var(--primary-dark);
   height: 150px;
   width: 200px;
   border-radius: 50%;
 }
 
 button:hover {
-  color: #fff;
+  color: var(--primary-content);
 }
 
 button:before {
