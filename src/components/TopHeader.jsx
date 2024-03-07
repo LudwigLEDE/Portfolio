@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import "../css/TopHeader.css"
+import React, { useState, useEffect } from "react";
+import "../css/TopHeader.css";
 
 const TopHeader = () => {
   const [isShrunk, setShrunk] = useState(false);
@@ -13,22 +13,22 @@ const TopHeader = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <header className={`header ${isShrunk ? 'shrunk' : ''}`}>
-        <div >
-            <a href="#Hero-Section">Home</a>
-            <a href="AboutMe-Section">About Me</a>
-            <a href="Skills-Section">Skills</a>
-            <a href="Projects-Section">Projects</a>
-            <a href="Contact-Section">Contact</a>
-        </div>
+    <header className={`header ${isShrunk ? "shrunk" : ""}`}>
+      <div>
+        <a href="#Hero-Section">Home</a>
+        <a href="#AboutMe-Section">About Me</a>
+        <a href="#Skills-Section">Skills</a>
+        <a href="#Projects-Section">Projects</a>
+        <a href="#Contact-Section">Contact</a>
+      </div>
     </header>
   );
 };
