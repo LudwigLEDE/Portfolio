@@ -52,9 +52,7 @@
   --warning-content: #000000;
   --error-content: #fbe2e2;
 }
-/**/
-/**/
-/**/
+/**
 /* Main CSS */
 * {
   font-family: Host_Grotesk;
@@ -76,4 +74,17 @@
   padding-top: 4rem;
   height: 100vh;
   scroll-snap-align: start;
+}
+
+/* Hero Sektion */
+#Hero-Section {
+}
+#Hero-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+#Hero-Content-Container {
+}
+#Hero-Button-Container {
 }

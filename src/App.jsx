@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import TopHeader from "./components/TopHeader";
+import HeroSection from "./components/HeroSection";
 
 import "./css/Button.css";
 import "./css/App.css";
@@ -13,17 +14,17 @@ function App() {
 
   return (
     <>
+      <TopHeader />
       <div id="Section-Container">
         <section id="Hero-Section" className="Section">
-          <TopHeader />
-          <div id="Hero-Content-Container">
-            <h1>Welcome to My Portfolio!</h1>
-            <h2>My name is Ludwig Engelhardt</h2>
-            <h2>I am in the process of becoming a full stack developer.</h2>
-          </div>
-          <div id="Hero-Button-Container">
-            <button>Projects</button>
-            <button>Contact Me</button>
+          <div id="Hero-Content-Grid">
+            <div id="Hero-Content-Container">
+              <HeroSection />
+            </div>
+            <div id="Hero-Button-Container">
+              <button>Projects</button>
+              <button>Contact Me</button>
+            </div>
           </div>
         </section>
         <section id="AboutMe-Section" className="Section">
