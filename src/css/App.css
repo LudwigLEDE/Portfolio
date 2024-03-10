@@ -57,6 +57,7 @@
 * {
   font-family: Host_Grotesk;
   color: var(--primary-content);
+  scroll-behavior: smooth;
 }
 
 /* Sections CSS */
