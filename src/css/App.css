@@ -83,8 +83,98 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Hero-Grid-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #Hero-Content-Container {
 }
 #Hero-Button-Container {
+}
+/* About Me Section */
+#AboutMe-Section {
+}
+#AboutMe-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#AboutMe-Grid-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Skills Section */
+#Skills-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#Skills-Grid-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Project Section */
+#Project-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#Project-Grid-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Section */
+#Contact-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#Contact-Grid-Items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Section */
+#Footer-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#Footer-Grid-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

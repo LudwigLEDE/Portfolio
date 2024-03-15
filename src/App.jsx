@@ -18,17 +18,21 @@ function App() {
       <div id="Section-Container">
         <section id="Hero-Section" className="Section">
           <div id="Hero-Content-Grid">
-            <div id="Hero-Content-Container">
+            <div id="Hero-Content-Container" className="Hero-Grid-Item">
               <HeroSection />
             </div>
-            <div id="Hero-Button-Container">
+            <div id="Hero-Button-Container" className="Hero-Grid-Item">
               <button>Projects</button>
               <button>Contact Me</button>
             </div>
           </div>
         </section>
         <section id="AboutMe-Section" className="Section">
-          <h2>Something about me</h2>
+          <div id="AboutMe-Content-Grid">
+            <div className="AboutMe-Grid-Item">
+              <h2>Something about me</h2>
+            </div>
+          </div>
         </section>
         <section id="Skills-Section" className="Section">
           <h2>These are the Programming Skills I possess:</h2>
