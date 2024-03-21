@@ -3,6 +3,7 @@ import { useState } from "react";
 import TopHeader from "./components/TopHeader";
 import HeroSection from "./components/HeroSection";
 import TerminalContact from "./components/TerminalContact";
+import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
 import "./css/App.css";
@@ -42,17 +43,19 @@ function App() {
             <li>JavaScript (ES6)</li>
           </ul>
         </section>
-        <section id="Projects-Section" className="Section"></section>
-        <div id="Projects-Content-Grid">
-          <div id="Projects-Container-Text"></div>
-          <div id="Projects-Container-Card"></div>
-        </div>
-        <section id="Contact-Section" className="Section"></section>
-        <div id="Contact-Content-Grid">
-          <div id="Contact-Form-Container">
-            <TerminalContact />
+        <section id="Projects-Section" className="Section">
+          <div id="Projects-Content-Grid">
+            <div id="Projects-Container-Text"></div>
+            <div id="Projects-Container-Card"></div>
           </div>
-        </div>
+        </section>
+        <section id="Contact-Section" className="Section">
+          <div id="Contact-Content-Grid">
+            <div id="Contact-Form-Container">
+              <TerminalContact />
+            </div>
+          </div>
+        </section>
         <section id="Footer-Section" className="Section"></section>
       </div>
     </>

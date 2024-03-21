@@ -7,7 +7,15 @@ const TerminalContact = () => {
   const inputRef = useRef(null);
 
   return (
-    <section className="px-4 py-12 bg-violet-600">
+    <section
+      style={{
+        backgroundImage:
+          "url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="px-4 py-12 bg-violet-600"
+    >
       <div
         ref={containerRef}
         onClick={() => {
@@ -29,7 +37,7 @@ const TerminalHeader = () => {
       <div className="w-3 h-3 rounded-full bg-yellow-500" />
       <div className="w-3 h-3 rounded-full bg-green-500" />
       <span className="text-sm text-slate-200 font-semibold absolute left-[50%] -translate-x-[50%]">
-        ludwig.engelhardt@gmail.com
+        contact@hover.dev
       </span>
     </div>
   );
