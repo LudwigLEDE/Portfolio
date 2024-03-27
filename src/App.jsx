@@ -44,9 +44,13 @@ function App() {
           </ul>
         </section>
         <section id="Projects-Section" className="Section">
-          <div id="Projects-Content-Grid">
-            <div id="Projects-Container-Text"></div>
-            <div id="Projects-Container-Card"></div>
+          <div id="Project-Card-Container-Grid">
+            <div className="Project-Card"></div>
+            <div className="Project-Card"></div>
+            <div className="Project-Card"></div>
+            <div className="Project-Card"></div>
+            <div className="Project-Card"></div>
+            <div className="Project-Card"></div>
           </div>
         </section>
         <section id="Contact-Section" className="Section">

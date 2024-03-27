@@ -132,19 +132,38 @@
 }
 
 /* Project Section */
-#Project-Content-Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  align-content: center;
+#Project-Card-Container-Grid {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  width: 100vw;
 }
-#Project-Grid-Item {
+.Project-Card {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 33.33%; /* Adjust for 3 items per row */
+  height: 50vh; /* Adjust so two items fill the viewport vertically */
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Optional, for visual structure */
+  margin: 5px; /* Optional, for spacing */
+}
+
+/* For intermediate sizes: 2 items per row, 3 rows */
+@media (max-width: 768px) {
+  .grid-item {
+    width: 50%; /* 100% / 2 for 2 items per row */
+    height: 33.33vh; /* Adjust so three items fill the viewport vertically */
+  }
+}
+
+/* For smallest screens: 1 item per row, 6 rows */
+@media (max-width: 480px) {
+  .grid-item {
+    width: 100%; /* Full width for 1 item per row */
+    height: 16.66vh; /* Adjust so six items fill the viewport vertically */
+  }
 }
 
 /* Contact Section */
