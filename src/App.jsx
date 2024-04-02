@@ -45,12 +45,38 @@ function App() {
         </section>
         <section id="Projects-Section" className="Section">
           <div id="Project-Card-Container-Grid">
-            <div className="Project-Card"></div>
-            <div className="Project-Card"></div>
-            <div className="Project-Card"></div>
-            <div className="Project-Card"></div>
-            <div className="Project-Card"></div>
-            <div className="Project-Card"></div>
+            <div className="Project-Card">
+              <h3>SwiftShare</h3>
+              <h5 className="Project-ProgrammingLanguage-Display" id="Java">
+                Java
+              </h5>
+            </div>
+            <div className="Project-Card">
+              <h3>Chatify</h3>
+              <div className="Project-Card-TechStack">
+                <h5 className="Project-ProgrammingLanguage-Display" id="Django">
+                  Django
+                </h5>
+                <h5 className="Project-ProgrammingLanguage-Display" id="HTML">
+                  HTML
+                </h5>
+                <h5 className="Project-ProgrammingLanguage-Display" id="CSS">
+                  CSS
+                </h5>
+              </div>
+            </div>
+            <div className="Project-Card">
+              <h3>Projects to Come</h3>
+            </div>
+            <div className="Project-Card">
+              <h3>Projects to Come</h3>
+            </div>
+            <div className="Project-Card">
+              <h3>Projects to Come</h3>
+            </div>
+            <div className="Project-Card">
+              <h3>Projects to Come</h3>
+            </div>
           </div>
         </section>
         <section id="Contact-Section" className="Section">

@@ -139,31 +139,161 @@
   align-items: center;
   height: 100vh;
 }
+/* Default styles for average screens */
+#Project-Card-Container-Grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Set up 3 columns */
+  grid-template-rows: repeat(2, 1fr); /* Set up 2 rows */
+  gap: 5px; /* Optional, for spacing between items */
+}
+
 .Project-Card {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  width: 33.33%; /* Adjust for 3 items per row */
-  height: 50vh; /* Adjust so two items fill the viewport vertically */
-  box-sizing: border-box;
-  border: 1px solid #ccc; /* Optional, for visual structure */
-  margin: 5px; /* Optional, for spacing */
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-/* For intermediate sizes: 2 items per row, 3 rows */
-@media (max-width: 768px) {
-  .grid-item {
-    width: 50%; /* 100% / 2 for 2 items per row */
-    height: 33.33vh; /* Adjust so three items fill the viewport vertically */
-  }
+.Project-Card h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  align-self: flex-start;
 }
 
-/* For smallest screens: 1 item per row, 6 rows */
-@media (max-width: 480px) {
-  .grid-item {
-    width: 100%; /* Full width for 1 item per row */
-    height: 16.66vh; /* Adjust so six items fill the viewport vertically */
-  }
+.Project-Card-TechStack {
+  display: flex;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.Project-ProgrammingLanguage-Display {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 15px;
+  color: #333;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.Project-ProgrammingLanguage-Display {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 15px;
+  color: #333;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.Project-ProgrammingLanguage-Display#Python {
+  background-color: #00008b;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#JavaScript {
+  background-color: #ffd700;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#Java {
+  background-color: #8b4513;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#Cpp {
+  background-color: #a8a9ad;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#Ruby {
+  background-color: #9b111e;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#Go {
+  background-color: #87ceeb;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#Rust {
+  background-color: #d2691e;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#Swift {
+  background-color: #ffa500;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#PHP {
+  background-color: #b57edc;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#CSharp {
+  background-color: #7851a9;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#CSS {
+  background-color: #ff69b4;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#HTML {
+  background-color: #b22222;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#JSX {
+  background-color: #00fa9a;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#TSX {
+  background-color: #008080;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#Django {
+  background-color: #228b22;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#TypeScript {
+  background-color: #2a52be;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#React {
+  background-color: #7df9ff;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#Angular {
+  background-color: #c41e3a;
+  color: #ffffff;
+}
+
+.Project-ProgrammingLanguage-Display#Vuejs {
+  background-color: #32cd32;
+  color: #000000;
+}
+
+.Project-ProgrammingLanguage-Display#Nodejs {
+  background-color: #808000;
+  color: #ffffff;
 }
 
 /* Contact Section */
