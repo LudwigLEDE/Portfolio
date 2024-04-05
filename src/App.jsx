@@ -73,16 +73,16 @@ function App() {
       </header>
       <div id="Section-Container">
         <section id="Hero-Section" className="Section">
-          <div className="Logo-Container">
-            <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
-          </div>
           <div id="Hero-Content-Grid">
+            <div className="Logo-Container">
+              <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
+            </div>
             <div className="Hero-Grid-Item">
               <HeroSection />
             </div>
             <div className="Hero-Grid-Item">
-              <button>Projects</button>
-              <button>Contact Me</button>
+              <button href="#Projects-Section">Projects</button>
+              <button href="#Contact-Section">Contact Me</button>
             </div>
           </div>
         </section>

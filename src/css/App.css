@@ -156,24 +156,33 @@ header {
 }
 
 /* Hero Sektion */
-
-#Hero-Content-Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  align-content: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-}
-.Hero-Grid-Item {
+#Hero-Section {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; /* This will take the full height of the viewport */
 }
-#Hero-Content-Container {
+
+#Hero-Content-Grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-#Hero-Button-Container {
+.Hero-Grid-Item {
+  padding: 10px;
+}
+
+.Hero-Grid-Item button {
+  margin: 0 5px; /* This provides spacing between the buttons */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  #Hero-Content-Grid {
+    flex-direction: column;
+  }
 }
 
 /* About Me Section */
