@@ -25,7 +25,7 @@
   font-style: normal;
 }
 
-button {
+.Hero-Button {
   color: var(--primary-content);
   font-family: inherit;
   display: inline-block;
@@ -43,7 +43,7 @@ button {
   font-weight: 500;
 }
 
-button:before {
+.Hero-Button:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -53,22 +53,22 @@ button:before {
   border-radius: 50%;
 }
 
-button:hover {
+.Hero-Button:hover {
   color: var(--primary-content);
 }
 
-button:before {
+.Hero-Button:before {
   top: 100%;
   left: 100%;
   transition: all 0.7s;
 }
 
-button:hover:before {
+.Hero-Button:hover:before {
   top: -30px;
   left: -30px;
 }
 
-button:active:before {
+.Hero-Button:active:before {
   background: var(--foreground);
   transition: background 0s;
 }

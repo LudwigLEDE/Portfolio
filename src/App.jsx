@@ -81,8 +81,12 @@ function App() {
               <HeroSection />
             </div>
             <div className="Hero-Grid-Item">
-              <button href="#Projects-Section">Projects</button>
-              <button href="#Contact-Section">Contact Me</button>
+              <a href="#Projects-Section" className="Hero-Button">
+                Projects
+              </a>
+              <a href="#Contact-Section" className="Hero-Button">
+                Contact Me
+              </a>
             </div>
           </div>
         </section>
