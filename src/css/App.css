@@ -67,9 +67,11 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
+
 .Section {
   height: 100vh;
   scroll-snap-align: start;
@@ -125,34 +127,36 @@ header {
 /* Styles for the navigation list */
 .Header-Container ul {
   list-style-type: none;
-  display: flex; /* Use flex for horizontal alignment of list items */
-  gap: 10px; /* Space between navigation items */
-}
-
-.Header-Container li {
-  /* Style for list items, if necessary */
+  display: flex;
+  gap: 10px;
 }
 
 .Header-Container a {
-  text-decoration: none; /* Removes underline from links */
-  color: inherit; /* Inherits color from parent for consistency */
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Matching the height of empty containers to the nav container */
 #Header-Logo-Container,
 #Header-Switch-Container {
   display: flex;
   align-items: center;
-  padding: 10px; /* Provides some internal space to match the height of the nav container */
+  padding: 10px;
 }
 
-/* Optional: Add styles for the active section */
 .active {
-  font-weight: bold; /* Makes the active link bold */
+  font-weight: bold;
 }
+
+/* Logo */
+.Logo-Container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: var(--copy) solid 2px;
+}
+
 /* Hero Sektion */
-#Hero-Section {
-}
+
 #Hero-Content-Grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -171,6 +175,7 @@ header {
 }
 #Hero-Button-Container {
 }
+
 /* About Me Section */
 #AboutMe-Section {
 }
