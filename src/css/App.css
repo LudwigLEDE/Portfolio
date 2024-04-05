@@ -76,6 +76,90 @@
   scroll-snap-align: start;
 }
 
+/* Header */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Sticky header at the top of the page */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Ensures all children stretch to the same height */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  height: 60px;
+}
+
+/* General header container styles */
+.Header-Container {
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally for the middle container */
+  padding: 20px; /* Adjusted padding for consistency */
+  border: #000000 solid 0px; /* Border to match previous design */
+  border-radius: 15px; /* Rounded corners as before */
+  background-color: var(--foreground);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px -4px,
+    rgba(0, 0, 0, 0.25) 0px 9px 28px;
+}
+
+/* First container on the left */
+#Header-Logo-Container {
+  margin-right: auto; /* Pushes everything else to the right */
+}
+
+/* Navigation container in the middle */
+#Header-Nav-Container {
+  flex-grow: 0; /* Prevents the nav container from growing */
+}
+
+/* Third container on the right */
+#Header-Switch-Container {
+  margin-left: auto; /* Pushes everything else to the left */
+}
+
+/* Styles for the navigation list */
+.Header-Container ul {
+  list-style-type: none;
+  display: flex; /* Use flex for horizontal alignment of list items */
+  gap: 10px; /* Space between navigation items */
+}
+
+.Header-Container li {
+  /* Style for list items, if necessary */
+}
+
+.Header-Container a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits color from parent for consistency */
+}
+
+/* Matching the height of empty containers to the nav container */
+#Header-Logo-Container,
+#Header-Switch-Container {
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Provides some internal space to match the height of the nav container */
+}
+
+/* Optional: Add styles for the active section */
+.active {
+  font-weight: bold; /* Makes the active link bold */
+}
 /* Hero Sektion */
 #Hero-Section {
 }

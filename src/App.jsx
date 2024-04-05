@@ -1,22 +1,76 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-import TopHeader from "./components/TopHeader";
 import HeroSection from "./components/HeroSection";
 import TerminalContact from "./components/TerminalContact";
+import Logo from "./components/Logo";
 import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
 import "./css/App.css";
 
 function App() {
-  const [activeLink, setActiveLink] = useState("Hero-Section");
-  const handleLinkClick = (Link) => {
-    setActiveLink(Link);
+  const [activeSection, setActiveSection] = useState("Hero-Section");
+
+  // Automatically scroll to the Hero section on initial load
+  useEffect(() => {
+    const heroSection = document.getElementById("Hero-Section");
+    if (heroSection) {
+      heroSection.scrollIntoView();
+    }
+  }, []);
+
+  const navItems = [
+    { href: "#Hero-Section", label: "Home" },
+    { href: "#AboutMe-Section", label: "About Me" },
+    { href: "#Skills-Section", label: "Skills" },
+    { href: "#Projects-Section", label: "Projects" },
+    { href: "#Contact-Section", label: "Contact" },
+    { href: "#Impressum", label: "Impressum" },
+  ];
+
+  // Handler to set active section
+  const handleNavClick = (e, sectionId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    setActiveSection(sectionId);
+
+    const sectionEl = document.getElementById(sectionId);
+    if (sectionEl) {
+      sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <>
-      <TopHeader />
+      <header>
+        <div className="Header-Container" id="Header-Logo-Container">
+          <Logo />
+          <p>Logo</p>
+        </div>
+        <div className="Header-Container">
+          <nav>
+            <ul>
+              {navItems.map((item, index) => (
+                <li
+                  key={index}
+                  className={
+                    activeSection === item.href.substring(1) ? "active" : ""
+                  }
+                >
+                  <a
+                    href={item.href}
+                    onClick={(e) => handleNavClick(e, item.href.substring(1))}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+        <div className="Header-Container" id="Header-Switch-Container">
+          {/* Add content for the first header container if needed */}
+        </div>
+      </header>
       <div id="Section-Container">
         <section id="Hero-Section" className="Section">
           <div id="Hero-Content-Grid">
