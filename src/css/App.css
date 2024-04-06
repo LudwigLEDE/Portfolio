@@ -160,7 +160,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* This will take the full height of the viewport */
+  height: 100vh;
 }
 
 #Hero-Content-Grid {
@@ -171,11 +171,12 @@ header {
   text-align: center;
 }
 .Hero-Grid-Item {
-  padding: 2px;
+  padding: 5px;
 }
 
-.Hero-Grid-Item button {
-  margin: 0 5px; /* This provides spacing between the buttons */
+.Hero-Grid-Item a {
+  margin: 0 5px;
+  text-decoration: none;
 }
 
 /* Responsive adjustments for smaller screens */
