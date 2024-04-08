@@ -43,8 +43,7 @@ function App() {
     <>
       <header>
         <div className="Header-Container" id="Header-Logo-Container">
-          <Logo />
-          <p>Logo</p>
+          <img src="src\assets\img\Logo-1.png" alt="Logo" id="Header-Logo" />
         </div>
         <div className="Header-Container">
           <nav>
@@ -74,7 +73,7 @@ function App() {
       <div id="Section-Container">
         <section id="Hero-Section" className="Section">
           <div id="Hero-Content-Grid">
-            <div className="Logo-Container">
+            <div className="LogoMe-Container">
               <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
             </div>
             <div className="Hero-Grid-Item">

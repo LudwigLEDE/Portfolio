@@ -120,6 +120,10 @@ header {
   margin-right: auto;
 }
 
+#Header-Logo-Container #Header-Logo {
+  width: 30px;
+}
+
 #Header-Switch-Container {
   margin-left: auto;
 }
@@ -148,7 +152,8 @@ header {
 }
 
 /* Logo */
-.Logo-Container img {
+
+.LogoMe-Container img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
