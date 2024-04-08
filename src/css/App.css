@@ -58,6 +58,12 @@
   color: var(--primary-content);
   scroll-behavior: smooth;
 }
+.Card {
+  border: #000000 solid 0px;
+  border-radius: 15px;
+  background-color: var(--foreground);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* Sections CSS */
 #Section-Container {
@@ -109,11 +115,18 @@ header {
   justify-content: center;
   padding: 20px;
   border: #000000 solid 0px;
-  border-radius: 15px;
-  background-color: var(--foreground);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px -4px,
-    rgba(0, 0, 0, 0.25) 0px 9px 28px;
   flex-grow: 0;
+}
+
+.Header-Container ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.Header-Container a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #Header-Logo-Container {
@@ -129,16 +142,6 @@ header {
 }
 
 /* Styles for the navigation list */
-.Header-Container ul {
-  list-style-type: none;
-  display: flex;
-  gap: 10px;
-}
-
-.Header-Container a {
-  text-decoration: none;
-  color: inherit;
-}
 
 #Header-Logo-Container,
 #Header-Switch-Container {
@@ -214,19 +217,9 @@ header {
 }
 
 /* Skills Section */
-#Skills-Content-Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  align-content: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-}
-#Skills-Grid-Item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#Skills-Container {
+  padding-top: 15vh;
+  padding: 20vw;
 }
 
 /* Project Section */
@@ -253,13 +246,9 @@ header {
   width: 300px;
   height: 200px;
   padding: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  background-color: #fff;
-  border-radius: 8px;
   overflow: hidden;
 }
-
 .Project-Card h3 {
   margin: 0;
   padding-bottom: 10px;

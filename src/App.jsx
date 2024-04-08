@@ -42,10 +42,10 @@ function App() {
   return (
     <>
       <header>
-        <div className="Header-Container" id="Header-Logo-Container">
+        <div className="Card Header-Container" id="Header-Logo-Container">
           <img src="src\assets\img\Logo-1.png" alt="Logo" id="Header-Logo" />
         </div>
-        <div className="Header-Container">
+        <div className="Card Header-Container">
           <nav>
             <ul>
               {navItems.map((item, index) => (
@@ -66,7 +66,7 @@ function App() {
             </ul>
           </nav>
         </div>
-        <div className="Header-Container" id="Header-Switch-Container">
+        <div className="Card Header-Container" id="Header-Switch-Container">
           <SettingsButton />
         </div>
       </header>
@@ -97,21 +97,30 @@ function App() {
           </div>
         </section>
         <section id="Skills-Section" className="Section">
-          <h2>These are the Programming Skills I possess:</h2>
-          <ul>
-            <li>HTML5 & CSS3</li>
-            <li>JavaScript (ES6)</li>
-          </ul>
+          <div id="Skills-Container">
+            <div className="Container">
+              <h2>These are the Programming Skills I possess:</h2>
+            </div>
+            <div className="Card Skills-Card">
+              <h3>Programing</h3>
+            </div>
+            <div className="Card Skills-Card">
+              <h3>Languages</h3>
+            </div>
+            <div className="Card Skills-Card">
+              <h3>Programms</h3>
+            </div>
+          </div>
         </section>
         <section id="Projects-Section" className="Section">
           <div id="Project-Card-Container-Grid">
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>SwiftShare</h3>
               <h5 className="Project-ProgrammingLanguage-Display" id="Java">
                 Java
               </h5>
             </div>
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>Chatify</h3>
               <div className="Project-Card-TechStack">
                 <h5 className="Project-ProgrammingLanguage-Display" id="Django">
@@ -125,16 +134,16 @@ function App() {
                 </h5>
               </div>
             </div>
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>Projects to Come</h3>
             </div>
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>Projects to Come</h3>
             </div>
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>Projects to Come</h3>
             </div>
-            <div className="Project-Card">
+            <div className="Card Project-Card">
               <h3>Projects to Come</h3>
             </div>
           </div>
