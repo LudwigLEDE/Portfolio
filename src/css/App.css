@@ -151,6 +151,10 @@ header {
   font-weight: bold;
 }
 
+#Header-Switch-Container {
+  position: relative;
+}
+
 /* Logo */
 
 .LogoMe-Container img {

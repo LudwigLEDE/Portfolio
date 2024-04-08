@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import HeroSection from "./components/HeroSection";
 import TerminalContact from "./components/TerminalContact";
-import Logo from "./components/Logo";
+import SettingsButton from "./components/SettingsButton";
 import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
@@ -67,7 +67,7 @@ function App() {
           </nav>
         </div>
         <div className="Header-Container" id="Header-Switch-Container">
-          {/* Add content for the first header container if needed */}
+          <SettingsButton />
         </div>
       </header>
       <div id="Section-Container">
