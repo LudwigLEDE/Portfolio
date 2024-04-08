@@ -383,6 +383,27 @@ header {
   color: #ffffff;
 }
 
+/* Project Card Viewport Sizing */
+
+/* Styles for smaller screens (up to 600px) */
+@media screen and (max-width: 600px) {
+  #Project-Card-Container-Grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Set up 3 columns */
+    grid-template-rows: repeat(6, 1fr); /* Set up 2 rows */
+    gap: 5px; /* Optional, for spacing between items */
+  }
+}
+
+/* Styles for medium screens (601px - 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #Project-Card-Container-Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Set up 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* Set up 2 rows */
+    gap: 5px; /* Optional, for spacing between items */
+  }
+}
 /* Contact Section */
 #Contact-Content-Grid {
   display: grid;
