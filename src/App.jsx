@@ -113,38 +113,49 @@ function App() {
           </div>
         </section>
         <section id="Projects-Section" className="Section">
-          <div id="Project-Card-Container-Grid">
-            <div className="Card Project-Card">
-              <h3>SwiftShare</h3>
-              <h5 className="Project-ProgrammingLanguage-Display" id="Java">
-                Java
-              </h5>
-            </div>
-            <div className="Card Project-Card">
-              <h3>Chatify</h3>
-              <div className="Project-Card-TechStack">
-                <h5 className="Project-ProgrammingLanguage-Display" id="Django">
-                  Django
-                </h5>
-                <h5 className="Project-ProgrammingLanguage-Display" id="HTML">
-                  HTML
-                </h5>
-                <h5 className="Project-ProgrammingLanguage-Display" id="CSS">
-                  CSS
-                </h5>
+          <div id="Project-Title">
+            <h2>Projects</h2>
+            <h3>These are some of the Projects I have worked on</h3>
+          </div>
+          <div id="Project-Card-Wrapper">
+            <div id="Project-Card-Container-Grid">
+              <div className="Card Project-Card">
+                <h3>SwiftShare</h3>
+                <div className="Project-Card-TechStack">
+                  <h5 className="Project-ProgrammingLanguage-Display" id="Java">
+                    Java
+                  </h5>
+                </div>
               </div>
-            </div>
-            <div className="Card Project-Card">
-              <h3>Projects to Come</h3>
-            </div>
-            <div className="Card Project-Card">
-              <h3>Projects to Come</h3>
-            </div>
-            <div className="Card Project-Card">
-              <h3>Projects to Come</h3>
-            </div>
-            <div className="Card Project-Card">
-              <h3>Projects to Come</h3>
+              <div className="Card Project-Card">
+                <h3>Chatify</h3>
+                <div className="Project-Card-TechStack">
+                  <h5
+                    className="Project-ProgrammingLanguage-Display"
+                    id="Django"
+                  >
+                    Django
+                  </h5>
+                  <h5 className="Project-ProgrammingLanguage-Display" id="HTML">
+                    HTML
+                  </h5>
+                  <h5 className="Project-ProgrammingLanguage-Display" id="CSS">
+                    CSS
+                  </h5>
+                </div>
+              </div>
+              <div className="Card Project-Card">
+                <h3>Projects to Come</h3>
+              </div>
+              <div className="Card Project-Card">
+                <h3>Projects to Come</h3>
+              </div>
+              <div className="Card Project-Card">
+                <h3>Projects to Come</h3>
+              </div>
+              <div className="Card Project-Card">
+                <h3>Projects to Come</h3>
+              </div>
             </div>
           </div>
         </section>

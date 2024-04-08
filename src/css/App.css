@@ -223,7 +223,14 @@ header {
 }
 
 /* Project Section */
-#Project-Card-Container-Grid {
+#Project-Title {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15vh;
+  z-index: 2;
+}
+
+#Project-Card-Wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -233,9 +240,9 @@ header {
 /* Default styles for average screens */
 #Project-Card-Container-Grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Set up 3 columns */
-  grid-template-rows: repeat(2, 1fr); /* Set up 2 rows */
-  gap: 5px; /* Optional, for spacing between items */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
 }
 
 .Project-Card {
@@ -246,7 +253,6 @@ header {
   width: 300px;
   height: 200px;
   padding: 15px;
-  margin: 10px;
   overflow: hidden;
 }
 .Project-Card h3 {
@@ -256,20 +262,10 @@ header {
 }
 
 .Project-Card-TechStack {
+  align-self: flex-start;
   display: flex;
   gap: 5px;
   padding-top: 10px;
-}
-
-.Project-ProgrammingLanguage-Display {
-  background-color: #f1f1f1;
-  border: none;
-  border-radius: 15px;
-  color: #333;
-  font-size: 0.8em;
-  padding: 5px 15px;
-  text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .Project-ProgrammingLanguage-Display {
