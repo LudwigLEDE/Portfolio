@@ -1,8 +1,40 @@
 import { useState, useEffect } from "react";
+import {
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobecreativecloud,
+  SiAdobephotoshop,
+  SiAdobepremierepro,
+  SiIntellijidea,
+  SiTailwindcss,
+  SiTypescript,
+  SiAmazonaws,
+  SiAngular,
+  SiBlender,
+  SiCinema4D,
+  SiMicrosoftoffice,
+  SiPhp,
+  SiSketchup,
+} from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
+import {
+  FaGithub,
+  FaJava,
+  FaHtml5,
+  FaCss3,
+  FaReact,
+  FaBootstrap,
+  FaMarkdown,
+  FaWordpress,
+  FaPython,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { DiSqllite } from "react-icons/di";
 
 import HeroSection from "./components/HeroSection";
 import TerminalContact from "./components/TerminalContact";
 import SettingsButton from "./components/SettingsButton";
+import SillsDisplay from "./components/SkillsDisplay";
 import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
@@ -136,17 +168,56 @@ function App() {
         </section>
         <section id="Skills-Section" className="Section">
           <div id="Skills-Container">
+            <SillsDisplay />
+
             <div className="Container">
               <h2>These are the Programming Skills I possess:</h2>
             </div>
             <div className="Card Skills-Card">
               <h3>Programing</h3>
+              <FaJava />
+              <FaPython />
+              <FaHtml5 />
+              <FaCss3 />
+              <IoLogoJavascript />
+              <SiTypescript />
+              <SiTailwindcss />
+              <FaReact />
+              <DiSqllite />
+              <FaBootstrap />
+              <FaMarkdown />
+              <SiAngular />
+              <SiPhp />
+
+              <FaWordpress />
+              <SiAmazonaws />
             </div>
             <div className="Card Skills-Card">
               <h3>Languages</h3>
+              <ul>
+                <li>German</li>
+                <li>English</li>
+                <li>Spanish</li>
+              </ul>
             </div>
             <div className="Card Skills-Card">
               <h3>Programms</h3>
+              <SiAdobecreativecloud />
+              <SiAdobeaftereffects />
+              <SiAdobeillustrator />
+              <SiAdobephotoshop />
+              <SiAdobepremierepro />
+
+              <SiBlender />
+              <SiCinema4D />
+              <SiSketchup />
+
+              <SiMicrosoftoffice />
+
+              <TbBrandVscode />
+              <SiIntellijidea />
+
+              <FaGithub />
             </div>
           </div>
         </section>
