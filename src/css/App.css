@@ -200,20 +200,18 @@ header {
 
 /* About Me Section */
 #AboutMe-Section {
+  text-align: center;
 }
-#AboutMe-Content-Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  align-content: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
+#AboutMe-Container {
+  padding-top: 15vh;
 }
-#AboutMe-Grid-Item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#AboutMe-Container ul {
+  padding-top: 3vh;
+}
+#AboutMe-Container li {
+  padding: 10px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 /* Skills Section */

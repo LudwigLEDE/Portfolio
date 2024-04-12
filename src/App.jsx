@@ -90,10 +90,48 @@ function App() {
           </div>
         </section>
         <section id="AboutMe-Section" className="Section">
-          <div id="AboutMe-Content-Grid">
-            <div className="AboutMe-Grid-Item">
-              <h2>Something about me</h2>
-            </div>
+          <div id="AboutMe-Container">
+            <h2>Something about me</h2>
+            <ul>
+              <li>
+                <h3>Me</h3>
+                <p>
+                  My name is Ludwig Engelhardt, I am 20 years old and still a
+                  Student.
+                </p>
+              </li>
+              <li>
+                <h3>My background</h3>
+                <p>Most of my knowlage came making my own mistakes. </p>
+              </li>
+              <li>
+                <h3>Motivation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam fuga quas soluta repellat rerum ipsam alias vel minima
+                  assumenda ex amet dolore quis repellendus, fugiat recusandae
+                  laboriosam reprehenderit labore. Excepturi.
+                </p>
+              </li>
+              <li>
+                <h3>Personal Interests</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi corporis hic, repellendus minima nostrum maiores
+                  fugit, exercitationem laboriosam eius, obcaecati consequuntur
+                  impedit magnam quas error nobis quia quis facilis. Obcaecati.
+                </p>
+              </li>
+              <li>
+                <h3>Goals</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat quisquam soluta, sequi impedit illo ad possimus ipsa
+                  fugit, beatae repellendus a, molestiae magni ea? Quia quisquam
+                  adipisci debitis in aut?
+                </p>
+              </li>
+            </ul>
           </div>
         </section>
         <section id="Skills-Section" className="Section">
