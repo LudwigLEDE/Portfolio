@@ -148,7 +148,7 @@ function App() {
               <li>
                 <h3>Personal Interests</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsu, dolor sit amet consectetur adipisicing elit.
                   Commodi corporis hic, repellendus minima nostrum maiores
                   fugit, exercitationem laboriosam eius, obcaecati consequuntur
                   impedit magnam quas error nobis quia quis facilis. Obcaecati.
