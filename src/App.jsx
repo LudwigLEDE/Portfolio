@@ -35,6 +35,8 @@ import HeroSection from "./components/HeroSection";
 import TerminalContact from "./components/TerminalContact";
 import SettingsButton from "./components/SettingsButton";
 import SillsDisplay from "./components/SkillsDisplay";
+import FriendsReviews from "./components/FriendsReviews";
+import SwipeCarousel from "./components/SwipeCarousel";
 import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
@@ -137,31 +139,13 @@ function App() {
                 <p>Most of my knowlage came making my own mistakes. </p>
               </li>
               <li>
-                <h3>Motivation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam fuga quas soluta repellat rerum ipsam alias vel minima
-                  assumenda ex amet dolore quis repellendus, fugiat recusandae
-                  laboriosam reprehenderit labore. Excepturi.
-                </p>
+                <h3>Reviews</h3>
+                <p>How my Friend would review me</p>
+                <FriendsReviews id="AboutMe-FriendsReviews" />
               </li>
               <li>
-                <h3>Personal Interests</h3>
-                <p>
-                  Lorem ipsu, dolor sit amet consectetur adipisicing elit.
-                  Commodi corporis hic, repellendus minima nostrum maiores
-                  fugit, exercitationem laboriosam eius, obcaecati consequuntur
-                  impedit magnam quas error nobis quia quis facilis. Obcaecati.
-                </p>
-              </li>
-              <li>
-                <h3>Goals</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellat quisquam soluta, sequi impedit illo ad possimus ipsa
-                  fugit, beatae repellendus a, molestiae magni ea? Quia quisquam
-                  adipisci debitis in aut?
-                </p>
+                <h3>Test</h3>
+                <SwipeCarousel />
               </li>
             </ul>
           </div>

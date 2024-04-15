@@ -5,7 +5,7 @@ const SettingsButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <label class="burger" for="burger">
+    <label className="burger">
       <input type="checkbox" id="burger" />
       <span></span>
       <span></span>

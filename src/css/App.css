@@ -213,6 +213,19 @@ header {
   padding-left: 10vw;
   padding-right: 10vw;
 }
+#AboutMe-FriendsReviews {
+  margin: 0 auto;
+}
+.carousel-container {
+  padding: 20px;
+  width: 100%; /* Adjust this to be responsive to the parent container's width */
+}
+
+.FriendsReviews {
+  width: calc(100% - 40px); /* Subtracting padding from both sides */
+  height: auto; /* Adjust height as needed */
+  overflow: hidden;
+}
 
 /* Skills Section */
 #Skills-Container {
