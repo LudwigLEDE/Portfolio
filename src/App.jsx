@@ -143,10 +143,6 @@ function App() {
                 <p>How my Friend would review me</p>
                 <FriendsReviews id="AboutMe-FriendsReviews" />
               </li>
-              <li>
-                <h3>Test</h3>
-                <SwipeCarousel />
-              </li>
             </ul>
           </div>
         </section>
