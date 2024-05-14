@@ -32,7 +32,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { DiSqllite } from "react-icons/di";
 
 import HeroSection from "./components/HeroSection";
-import TerminalContact from "./components/TerminalContact";
 import SettingsButton from "./components/SettingsButton";
 import SillsDisplay from "./components/SkillsDisplay";
 import FriendsReviews from "./components/FriendsReviews";
@@ -208,15 +207,21 @@ function App() {
           </div>
           <div id="Project-Card-Wrapper">
             <div id="Project-Card-Container-Grid">
-              <div className="Card Project-Card">
+              <a
+                href="https://github.com/L-Engelhardt-Lette/SwiftShare"
+                className="Card Project-Card"
+              >
                 <h3>SwiftShare</h3>
                 <div className="Project-Card-TechStack">
                   <h5 className="Project-ProgrammingLanguage-Display" id="Java">
                     Java
                   </h5>
                 </div>
-              </div>
-              <div className="Card Project-Card">
+              </a>
+              <a
+                href="https://github.com/L-Engelhardt-Lette/Chatify"
+                className="Card Project-Card"
+              >
                 <h3>Chatify</h3>
                 <div className="Project-Card-TechStack">
                   <h5
@@ -232,28 +237,24 @@ function App() {
                     CSS
                   </h5>
                 </div>
-              </div>
-              <div className="Card Project-Card">
+              </a>
+              <a href="" className="Card Project-Card">
                 <h3>Projects to Come</h3>
-              </div>
-              <div className="Card Project-Card">
+              </a>
+              <a href="" className="Card Project-Card">
                 <h3>Projects to Come</h3>
-              </div>
-              <div className="Card Project-Card">
+              </a>
+              <a href="" className="Card Project-Card">
                 <h3>Projects to Come</h3>
-              </div>
-              <div className="Card Project-Card">
+              </a>
+              <a href="" className="Card Project-Card">
                 <h3>Projects to Come</h3>
-              </div>
+              </a>
             </div>
           </div>
         </section>
         <section id="Contact-Section" className="Section">
-          <div id="Contact-Content-Grid">
-            <div id="Contact-Form-Container">
-              <TerminalContact />
-            </div>
-          </div>
+          <div id="Contact-Content-Grid"></div>
         </section>
         <section id="Footer-Section" className="Section"></section>
       </div>

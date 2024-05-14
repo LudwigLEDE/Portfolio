@@ -246,7 +246,8 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 /* Default styles for average screens */
 #Project-Card-Container-Grid {
@@ -265,6 +266,7 @@ header {
   height: 200px;
   padding: 15px;
   overflow: hidden;
+  text-decoration: none;
 }
 .Project-Card h3 {
   margin: 0;
