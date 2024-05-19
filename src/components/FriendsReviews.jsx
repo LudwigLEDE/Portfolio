@@ -14,7 +14,10 @@ const reviews = [
     text: "The perfect getaway for anyone looking to find peace.",
     author: "Bob Brown",
   },
-  { text: "Nature at its finest. Highly recommended!", author: "Emily White" },
+  {
+    text: "Nature at its finest. Highly recommended!",
+    author: "Niels Grosche",
+  },
 ];
 
 const AUTO_DELAY = 10000; // 10 seconds
