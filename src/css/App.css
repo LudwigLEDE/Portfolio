@@ -232,6 +232,10 @@ header {
   padding-top: 15vh;
   padding: 20vw;
 }
+.Skills-Card-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 /* Project Section */
 #Project-Title {
@@ -416,17 +420,14 @@ header {
 /* Contact Section */
 #Contact-Content-Grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 10px;
   align-content: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
-}
-#Contact-Grid-Items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  width: fit-content; /* or a fixed width */
+  margin: 0 auto;
 }
 
 /* Footer Section */

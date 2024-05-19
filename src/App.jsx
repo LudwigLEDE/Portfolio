@@ -1,3 +1,5 @@
+// App.jsx
+
 import { useState, useEffect } from "react";
 import {
   SiAdobeaftereffects,
@@ -27,15 +29,18 @@ import {
   FaMarkdown,
   FaWordpress,
   FaPython,
+  FaLinkedin,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiSqllite } from "react-icons/di";
+import { MdEmail } from "react-icons/md";
 
 import HeroSection from "./components/HeroSection";
 import SettingsButton from "./components/SettingsButton";
-import SillsDisplay from "./components/SkillsDisplay";
 import FriendsReviews from "./components/FriendsReviews";
 import SwipeCarousel from "./components/SwipeCarousel";
+import SkillsProgress from "./components/SkillsProgress";
+import SocialLinks from "./components/SocialLinks";
 import { Hero } from "./components/Hero";
 
 import "./css/Button.css";
@@ -44,7 +49,6 @@ import "./css/App.css";
 function App() {
   const [activeSection, setActiveSection] = useState("Hero-Section");
 
-  // Automatically scroll to the Hero section on initial load
   useEffect(() => {
     const heroSection = document.getElementById("Hero-Section");
     if (heroSection) {
@@ -58,12 +62,10 @@ function App() {
     { href: "#Skills-Section", label: "Skills" },
     { href: "#Projects-Section", label: "Projects" },
     { href: "#Contact-Section", label: "Contact" },
-    { href: "#Impressum", label: "Impressum" },
   ];
 
-  // Handler to set active section
   const handleNavClick = (e, sectionId) => {
-    e.preventDefault(); // Prevent default anchor behavior
+    e.preventDefault();
     setActiveSection(sectionId);
 
     const sectionEl = document.getElementById(sectionId);
@@ -147,56 +149,70 @@ function App() {
         </section>
         <section id="Skills-Section" className="Section">
           <div id="Skills-Container">
-            <SillsDisplay />
-
             <div className="Container">
               <h2>These are the Programming Skills I possess:</h2>
             </div>
-            <div className="Card Skills-Card">
-              <h3>Programing</h3>
-              <FaJava />
-              <FaPython />
-              <FaHtml5 />
-              <FaCss3 />
-              <IoLogoJavascript />
-              <SiTypescript />
-              <SiTailwindcss />
-              <FaReact />
-              <DiSqllite />
-              <FaBootstrap />
-              <FaMarkdown />
-              <SiAngular />
-              <SiPhp />
+            <div className="Card Skills-Card-Grid">
+              <h3>Frontend Coding</h3>
 
-              <FaWordpress />
-              <SiAmazonaws />
-            </div>
-            <div className="Card Skills-Card">
-              <h3>Languages</h3>
-              <ul>
-                <li>German</li>
-                <li>English</li>
-                <li>Spanish</li>
-              </ul>
-            </div>
-            <div className="Card Skills-Card">
+              <div className="Skills-Display-Icons">
+                <FaHtml5 />
+                <FaCss3 />
+                <FaMarkdown />
+                <FaBootstrap />
+                <FaWordpress />
+                <SiTailwindcss />
+              </div>
+              <SkillsProgress value={69}></SkillsProgress>
+              <div id="BLANK"></div>
+              <h3>Backend Coding</h3>
+              <div className="Skills-Display-Icons">
+                <SiTypescript />
+                <FaJava />
+                <FaPython />
+                <SiPhp />
+                <IoLogoJavascript />
+                <DiSqllite />
+                <SiAmazonaws />
+                <SiAngular />
+              </div>
+              <SkillsProgress value={49}></SkillsProgress>
+              <div id="BLANK"></div>
+              <h3>Creative Work</h3>
+              <div className="Skills-Display-Icons">
+                <SiAdobecreativecloud />
+                <SiAdobeaftereffects />
+                <SiAdobeillustrator />
+                <SiAdobephotoshop />
+                <SiAdobepremierepro />
+                <SiBlender />
+                <SiCinema4D />
+                <SiSketchup />
+              </div>
+              <SkillsProgress value={39}></SkillsProgress>
+              <div id="BLANK"></div>
               <h3>Programms</h3>
-              <SiAdobecreativecloud />
-              <SiAdobeaftereffects />
-              <SiAdobeillustrator />
-              <SiAdobephotoshop />
-              <SiAdobepremierepro />
+              <div className="Skills-Display-Icons">
+                <SiMicrosoftoffice />
 
-              <SiBlender />
-              <SiCinema4D />
-              <SiSketchup />
+                <TbBrandVscode />
+                <SiIntellijidea />
 
-              <SiMicrosoftoffice />
-
-              <TbBrandVscode />
-              <SiIntellijidea />
-
-              <FaGithub />
+                <FaGithub />
+              </div>
+              <SkillsProgress value={54}></SkillsProgress>
+              <div id="BLANK"></div>
+              <div className="">
+                <h3>Languages</h3>
+                <ul>
+                  <li>German</li>
+                  <SkillsProgress value={84}></SkillsProgress>
+                  <li>English</li>
+                  <SkillsProgress value={90}></SkillsProgress>
+                  <li>Spanish</li>
+                  <SkillsProgress value={20}></SkillsProgress>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -254,9 +270,10 @@ function App() {
           </div>
         </section>
         <section id="Contact-Section" className="Section">
-          <div id="Contact-Content-Grid"></div>
+          <div id="Contact-Content-Grid">
+            <SocialLinks />
+          </div>
         </section>
-        <section id="Footer-Section" className="Section"></section>
       </div>
     </>
   );

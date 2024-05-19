@@ -1,3 +1,5 @@
+// FriendsReviews.jsx
+
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
@@ -87,6 +89,7 @@ const Review = ({ review }) => (
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
+      alignItems: "center", // Added to center the content horizontally
       height: "100%", // Height adjusted to 100% of container
     }}
     className="shrink-0"

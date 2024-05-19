@@ -1,0 +1,24 @@
+.Card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text within the card */
+}
+
+.Card-Socials {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  gap: 20px; /* Add spacing between icons */
+  margin-top: 15px;
+}
+
+.SocialLink {
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.SocialLink:hover {
+  color: #0077b5; /* Example hover color (LinkedIn blue) */
+}
