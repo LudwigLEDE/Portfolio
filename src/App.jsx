@@ -270,7 +270,7 @@ function App() {
           </div>
         </section>
         <section id="Contact-Section" className="Section">
-          <div id="Contact-Content-Grid">
+          <div id="Contact-Content">
             <SocialLinks />
           </div>
         </section>
