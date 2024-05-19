@@ -33,10 +33,8 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiSqllite } from "react-icons/di";
-import { MdEmail } from "react-icons/md";
 
 import HeroSection from "./components/HeroSection";
-import SettingsButton from "./components/SettingsButton";
 import FriendsReviews from "./components/FriendsReviews";
 import SwipeCarousel from "./components/SwipeCarousel";
 import SkillsProgress from "./components/SkillsProgress";
@@ -100,9 +98,6 @@ function App() {
               ))}
             </ul>
           </nav>
-        </div>
-        <div className="Card Header-Container" id="Header-Switch-Container">
-          <SettingsButton />
         </div>
       </header>
       <div id="Section-Container">
