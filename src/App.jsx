@@ -118,9 +118,9 @@ function App() {
           </div>
         </section>
         <section id="AboutMe-Section" className="Section">
-          <div id="AboutMe-Container">
+          <div id="AboutMe-Container" className="AboutMe-centered">
             <h2>Something about me</h2>
-            <ul>
+            <ul className="AboutMe-list">
               <li>
                 <h3>Me</h3>
                 <p>
@@ -130,7 +130,7 @@ function App() {
               </li>
               <li>
                 <h3>My background</h3>
-                <p>Most of my knowlage came making my own mistakes. </p>
+                <p>Most of my knowledge came from making my own mistakes.</p>
               </li>
               <li>
                 <h3>Reviews</h3>
