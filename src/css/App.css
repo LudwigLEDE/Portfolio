@@ -98,7 +98,6 @@ html {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: stretch;
   position: sticky;
   top: 0;
@@ -107,15 +106,16 @@ header {
   padding-right: 15px;
   padding-top: 15px;
   height: 60px;
+  justify-content: center;
 }
 
 .Header-Container {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 20px;
   border: #000000 solid 0px;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .Header-Container ul {
@@ -129,36 +129,16 @@ header {
   color: inherit;
 }
 
-#Header-Logo-Container {
-  margin-right: auto;
-}
-
-#Header-Logo-Container #Header-Logo {
+#Logo {
   width: 30px;
-}
-
-#Header-Switch-Container {
-  margin-left: auto;
-}
-
-/* Styles for the navigation list */
-
-#Header-Logo-Container,
-#Header-Switch-Container {
-  display: flex;
-  align-items: center;
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .active {
   font-weight: bold;
 }
 
-#Header-Switch-Container {
-  position: relative;
-}
-
-/* Logo */
+/* Hero Sektion */
 
 .LogoMe-Container img {
   width: 100px;
@@ -167,7 +147,6 @@ header {
   border: var(--copy) solid 2px;
 }
 
-/* Hero Sektion */
 #Hero-Section {
   display: flex;
   justify-content: center;

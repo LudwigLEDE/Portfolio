@@ -75,10 +75,8 @@ function App() {
   return (
     <>
       <header>
-        <div className="Card Header-Container" id="Header-Logo-Container">
-          <img src="src\assets\img\Logo-1.png" alt="Logo" id="Header-Logo" />
-        </div>
         <div className="Card Header-Container">
+          <img src="src\assets\img\Logo-1.png" alt="Logo" id="Logo" />
           <nav>
             <ul>
               {navItems.map((item, index) => (
