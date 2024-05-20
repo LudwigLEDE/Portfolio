@@ -118,28 +118,25 @@ function App() {
           </div>
         </section>
         <section id="AboutMe-Section" className="Section">
-          <div id="AboutMe-Container" className="AboutMe-centered">
-            <h2>Something about me</h2>
-            <ul className="AboutMe-list">
-              <li>
-                <h3>Me</h3>
-                <p>
-                  My name is Ludwig Engelhardt, I am 20 years old and still a
-                  Student.
-                </p>
-              </li>
-              <li>
-                <h3>My background</h3>
-                <p>Most of my knowledge came from making my own mistakes.</p>
-              </li>
-              <li>
-                <h3>Reviews</h3>
-                <p>How my Friend would review me</p>
-                <FriendsReviews id="AboutMe-FriendsReviews" />
-              </li>
-            </ul>
+          <div className="parent-div">
+            <div className="Card centered-div">
+              <div id="AboutMe-Content-Grid">
+                <div>
+                  <h2>About Me</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste quaerat corrupti asperiores reprehenderit dolorum
+                    pariatur voluptas, debitis minima adipisci fugiat.
+                    Dignissimos unde consequuntur ullam laudantium deleniti
+                    rerum delectus. Inventore, neque?
+                  </p>
+                </div>
+                <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
+              </div>
+            </div>
           </div>
         </section>
+
         <section id="Skills-Section" className="Section">
           <div id="Skills-Container">
             <div className="Container">

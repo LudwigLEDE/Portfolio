@@ -178,34 +178,34 @@ header {
 }
 
 /* About Me Section */
-#AboutMe-Section {
-  text-align: center;
+.parent-div {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Full height of the viewport */
 }
-#AboutMe-Container {
-  padding-top: 15vh;
+.centered-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
-.AboutMe-centered {
-  display: flex; /* Enable flexbox layout */
-  flex-direction: column; /* Arrange items vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center text within elements */
-  /* Add any additional styling to customize the look */
-  max-width: 800px; /* Optional: constrain width for better readability */
-  margin: 0 auto; /* Optional: center the entire container on the page */
+#AboutMe-Content-Grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-
-.AboutMe-list {
-  list-style: none; /* Remove default list styling */
-  padding: 0;
+#AboutMe-Content-Grid p {
+  margin: 0;
 }
-
-.AboutMe-list li {
-  margin-bottom: 20px; /* Add spacing between list items */
+#AboutMe-Content-Grid img {
+  max-width: 100%;
+  height: auto;
 }
-
-.carousel-container {
-  padding: 20px;
-  width: 100%; /* Adjust this to be responsive to the parent container's width */
+#AboutMe-Section img {
+  width: 200px;
 }
 
 .FriendsReviews {
