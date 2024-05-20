@@ -136,13 +136,10 @@ function App() {
             </div>
           </div>
         </section>
-
         <section id="Skills-Section" className="Section">
           <div id="Skills-Container">
-            <div className="Container">
-              <h2>These are the Programming Skills I possess:</h2>
-            </div>
             <div className="Card Skills-Card-Grid">
+              <h2>These are the Programming Skills I possess:</h2>
               <h3>Frontend Coding</h3>
 
               <div className="Skills-Display-Icons">
