@@ -137,68 +137,50 @@ function App() {
           </div>
         </section>
         <section id="Skills-Section" className="Section">
-          <div id="Skills-Container">
-            <div className="Card Skills-Card-Grid">
-              <h2>These are the Programming Skills I possess:</h2>
-              <h3>Frontend Coding</h3>
-
-              <div className="Skills-Display-Icons">
-                <FaHtml5 />
-                <FaCss3 />
-                <FaMarkdown />
-                <FaBootstrap />
-                <FaWordpress />
-                <SiTailwindcss />
-              </div>
-              <SkillsProgress value={69}></SkillsProgress>
-              <div id="BLANK"></div>
-              <h3>Backend Coding</h3>
-              <div className="Skills-Display-Icons">
-                <SiTypescript />
-                <FaJava />
-                <FaPython />
-                <SiPhp />
-                <IoLogoJavascript />
-                <DiSqllite />
-                <SiAmazonaws />
-                <SiAngular />
-              </div>
-              <SkillsProgress value={49}></SkillsProgress>
-              <div id="BLANK"></div>
-              <h3>Creative Work</h3>
-              <div className="Skills-Display-Icons">
-                <SiAdobecreativecloud />
-                <SiAdobeaftereffects />
-                <SiAdobeillustrator />
-                <SiAdobephotoshop />
-                <SiAdobepremierepro />
-                <SiBlender />
-                <SiCinema4D />
-                <SiSketchup />
-              </div>
-              <SkillsProgress value={39}></SkillsProgress>
-              <div id="BLANK"></div>
-              <h3>Programms</h3>
-              <div className="Skills-Display-Icons">
-                <SiMicrosoftoffice />
-
-                <TbBrandVscode />
-                <SiIntellijidea />
-
-                <FaGithub />
-              </div>
-              <SkillsProgress value={54}></SkillsProgress>
-              <div id="BLANK"></div>
-              <div className="">
-                <h3>Languages</h3>
-                <ul>
-                  <li>German</li>
-                  <SkillsProgress value={84}></SkillsProgress>
-                  <li>English</li>
-                  <SkillsProgress value={90}></SkillsProgress>
-                  <li>Spanish</li>
-                  <SkillsProgress value={20}></SkillsProgress>
-                </ul>
+          <div className="parent-div">
+            <div className="Card centered-div">
+              <h2>These are my Skills</h2>
+              <p>Programms / Langugaes I have worked with</p>
+              <div className="Skills-Content-Grid">
+                <h3>Frontend</h3>
+                <div className="Skills-Icons">
+                  <FaHtml5 />
+                  <IoLogoJavascript />
+                  <SiTailwindcss />
+                  <SiTypescript />
+                  <SiAngular />
+                  <FaCss3 />
+                  <FaReact />
+                  <FaBootstrap />
+                  <FaMarkdown />
+                </div>
+                <h3>Backend</h3>
+                <div className="Skills-Icons">
+                  <FaJava />
+                  <FaPython />
+                  <DiSqllite />
+                  <SiAmazonaws />
+                  <SiPhp />
+                </div>
+                <h3>Creative</h3>
+                <div className="Skills-Icons">
+                  <SiAdobeaftereffects />
+                  <SiAdobeillustrator />
+                  <SiAdobecreativecloud />
+                  <SiAdobephotoshop />
+                  <SiAdobepremierepro />
+                  <SiBlender />
+                  <SiCinema4D />
+                  <SiSketchup />
+                </div>
+                <h3>Other</h3>
+                <div className="Skills-Icons">
+                  <FaGithub />
+                  <TbBrandVscode />
+                  <SiIntellijidea />
+                  <SiMicrosoftoffice />
+                  <FaWordpress />
+                </div>
               </div>
             </div>
           </div>

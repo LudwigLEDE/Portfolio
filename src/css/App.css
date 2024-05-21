@@ -215,13 +215,19 @@ header {
 }
 
 /* Skills Section */
-#Skills-Container {
-  padding-top: 15vh;
-  padding: 20vw;
-}
-.Skills-Card-Grid {
+.Skills-Content-Grid{
+  padding-top: 15px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+.Skills-Icons{
+  padding: 10px;
+}
+.Skills-Icons svg{
+  height: 2em;
+  width: 2em;
+  margin: 5px;
 }
 
 /* Project Section */
