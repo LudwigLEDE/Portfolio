@@ -76,7 +76,7 @@ function App() {
     <>
       <header>
         <div className="Card Header-Container">
-          <img src="src\assets\img\Logo-1.png" alt="Logo" id="Logo" />
+          <img src="/Logo-1.png" alt="Logo" id="Logo" />
           <nav>
             <ul>
               {navItems.map((item, index) => (
@@ -102,7 +102,7 @@ function App() {
         <section id="Hero-Section" className="Section">
           <div id="Hero-Content-Grid">
             <div className="LogoMe-Container">
-              <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
+              <img src="/Me.jpeg" alt="Me Logo" />
             </div>
             <div className="Hero-Grid-Item">
               <HeroSection />
@@ -131,10 +131,7 @@ function App() {
                     and Java.
                   </p>
                 </div>
-                <img
-                  src="src\assets\img\Screenshot_2024-05-22-15-45-45-62_92460851df6f172a4592fca41cc2d2e6.jpg"
-                  alt="Me Logo"
-                />
+                <img src="/AboutMe.jpg" alt="Me Logo" />
               </div>
             </div>
           </div>
