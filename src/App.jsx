@@ -124,14 +124,17 @@ function App() {
                 <div>
                   <h2>About Me</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste quaerat corrupti asperiores reprehenderit dolorum
-                    pariatur voluptas, debitis minima adipisci fugiat.
-                    Dignissimos unde consequuntur ullam laudantium deleniti
-                    rerum delectus. Inventore, neque?
+                    My goal is to become a full-stack developer, driven by my
+                    passion for coding and creative work. I have a strong
+                    affinity for frontend development, particularly in web
+                    development. For backend development, I prefer using Python
+                    and Java.
                   </p>
                 </div>
-                <img src="./src/assets/img/Me.jpeg" alt="Me Logo" />
+                <img
+                  src="src\assets\img\Screenshot_2024-05-22-15-45-45-62_92460851df6f172a4592fca41cc2d2e6.jpg"
+                  alt="Me Logo"
+                />
               </div>
             </div>
           </div>

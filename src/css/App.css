@@ -206,6 +206,12 @@ header {
 }
 #AboutMe-Section img {
   width: 200px;
+  border: var(--primary-content) solid 2px;
+  border-radius: 15px;
+}
+
+#AboutMe-Section p {
+  text-align: unset;
 }
 
 .FriendsReviews {
@@ -215,16 +221,16 @@ header {
 }
 
 /* Skills Section */
-.Skills-Content-Grid{
+.Skills-Content-Grid {
   padding-top: 15px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 5px;
 }
-.Skills-Icons{
+.Skills-Icons {
   padding: 10px;
 }
-.Skills-Icons svg{
+.Skills-Icons svg {
   height: 2em;
   width: 2em;
   margin: 5px;
@@ -244,7 +250,6 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 5vh;
-
 }
 /* Default styles for average screens */
 #Project-Card-Container-Grid {
