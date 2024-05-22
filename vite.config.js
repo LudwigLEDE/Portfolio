@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/src/assets' : '/',
+  base: '/', // Adjust this if your site will be in a subdirectory
   plugins: [react()],
   resolve: {
     alias: {
@@ -10,6 +10,6 @@ export default defineConfig({
     },
   },
   server: {
-    open: true,
+    open: true, // Automatically open the app in the browser on server start
   },
 });
