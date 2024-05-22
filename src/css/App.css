@@ -1,4 +1,3 @@
-/**/
 /* Font CSS */
 @font-face {
   font-family: Unageo;
@@ -52,6 +51,7 @@
   --warning-content: #000000;
   --error-content: #fbe2e2;
 }
+
 /* Main CSS */
 * {
   font-family: Host_Grotesk;
@@ -138,7 +138,7 @@ header {
   font-weight: bold;
 }
 
-/* Hero Sektion */
+/* Hero Section */
 
 .LogoMe-Container img {
   width: 100px;
@@ -175,14 +175,39 @@ header {
   #Hero-Content-Grid {
     flex-direction: column;
   }
+
+  .Header-Container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Header-Container li {
+    margin-bottom: 10px;
+  }
+
+  .centered-div {
+    width: 90%;
+  }
+
+  .Skills-Content-Grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Project-Card {
+    width: 90%;
+  }
+
+  #Project-Card-Container-Grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* About Me Section */
 .parent-div {
   display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  height: 100vh; /* Full height of the viewport */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .centered-div {
   display: flex;
@@ -215,8 +240,8 @@ header {
 }
 
 .FriendsReviews {
-  width: calc(100% - 40px); /* Subtracting padding from both sides */
-  height: auto; /* Adjust height as needed */
+  width: calc(100% - 40px);
+  height: auto;
   overflow: hidden;
 }
 
@@ -251,7 +276,6 @@ header {
   align-items: center;
   padding-top: 5vh;
 }
-/* Default styles for average screens */
 #Project-Card-Container-Grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -393,6 +417,7 @@ header {
   background-color: #808000;
   color: #ffffff;
 }
+
 /* Contact Section */
 #Contact-Content {
   display: grid;
@@ -401,7 +426,6 @@ header {
   align-content: center;
   justify-content: center;
   height: 100vh;
-
-  width: fit-content; /* or a fixed width */
+  width: fit-content;
   margin: 0 auto;
 }
