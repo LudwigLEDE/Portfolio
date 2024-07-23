@@ -1,9 +1,35 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#1dadc1',
+        'primary-content': '#000000',
+        'primary-dark': '#168595',
+        'primary-light': '#31cbe0',
+        secondary: '#5bc11d',
+        'secondary-content': '#000000',
+        'secondary-dark': '#469516',
+        'secondary-light': '#73e031',
+        background: '#ecf2f3',
+        foreground: '#fafcfc',
+        border: '#d8e4e6',
+        copy: '#1e2d2f',
+        'copy-light': '#4f777d',
+        'copy-lighter': '#739fa6',
+        success: '#1dc11d',
+        warning: '#c1c11d',
+        error: '#c11d1d',
+        'success-content': '#e2fbe2',
+        'warning-content': '#000000',
+        'error-content': '#fbe2e2',
+      },
+      fontFamily: {
+        unageo: ['Unageo', 'sans-serif'],
+        host_grotesk: ['Host_Grotesk', 'sans-serif'],
+        monaspace_argon: ['MonaspaceArgon', 'monospace'],
+        monaspace_xenon: ['MonaspaceXenon', 'monospace'],
+      },
+    },
   },
   plugins: [],
-}
-
+};
