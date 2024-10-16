@@ -1,10 +1,10 @@
-import React from 'react';
-import Hero from './components/Hero';
-import SocialLinks from './components/SocialLinks';
-import SkillsProgress from './components/SkillsProgress';
-import FriendsReviews from './components/FriendsReviews';
-import SwipeCarousel from './components/SwipeCarousel';
-import './index.css';
+import React from "react";
+import Hero from "./components/Hero";
+import SocialLinks from "./components/SocialLinks";
+import SkillsProgress from "./components/SkillsProgress";
+import FriendsReviews from "./components/FriendsReviews";
+import SwipeCarousel from "./components/SwipeCarousel";
+import "./css/index.css";
 
 const App = () => {
   return (
