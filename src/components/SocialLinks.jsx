@@ -1,37 +1,22 @@
-import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import "../css/SocialLinks.css";
+import React from 'react';
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
-function SocialLinks() {
-  const links = [
-    {
-      icon: <FaLinkedin />,
-      url: "https://www.linkedin.com/in/ludwig-engelhardt-498abb224/",
-    },
-    { icon: <FaGithub />, url: "https://github.com/L-Engelhardt-Lette" },
-    { icon: <MdEmail />, url: "mailto:ludwig.engelhardt@gmail.com" },
-  ];
-
+const SocialLinks = () => {
   return (
-    <div className="Card">
-      <h3>Get in Touch</h3>
-      <p>Feel free to reach out to me via email or social media!</p>
-      <div className="Card-Socials">
-        {links.map((link, index) => (
-          <a
-            key={index}
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="SocialLink"
-          >
-            {link.icon}
-          </a>
-        ))}
+    <div className="bg-white p-5 rounded-lg shadow text-center">
+      <div className="flex justify-center gap-5 mt-4">
+        <a href="https://www.linkedin.com" className="text-gray-800 text-2xl hover:text-blue-600 transition-colors">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com" className="text-gray-800 text-2xl hover:text-blue-600 transition-colors">
+          <FaGithub />
+        </a>
+        <a href="https://twitter.com" className="text-gray-800 text-2xl hover:text-blue-600 transition-colors">
+          <FaTwitter />
+        </a>
       </div>
     </div>
   );
-}
+};
 
 export default SocialLinks;
